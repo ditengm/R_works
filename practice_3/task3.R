@@ -65,3 +65,4 @@ df %>%
   select(cluster, gasWat) %>%
   group_by(cluster) %>%
   summarise(avr_gw = mean(gasWat)) #КП 242
+
