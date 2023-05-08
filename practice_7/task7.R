@@ -211,3 +211,4 @@ ggplot(cvd, aes(X_Sweden)) +
   scale_x_continuous(n.breaks = 10) +
   scale_y_continuous(n.breaks = 20) +
   theme_bw()
+
